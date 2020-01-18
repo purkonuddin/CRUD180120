@@ -1,10 +1,12 @@
 test180120
 aplikasai yang digunakan Appserv, Atom, chrome, gitKraken. bahasa pemrograman js, php. framework untuk soal no 6 jquery, bootstrap.
 
-jawaban no 1-5 dengan format .js di jalankan dengan browser console 
+jawaban no 2,3,5 dengan format .js di jalankan dengan browser console 
 (1.js) function yang menerima dua parameter (nama, umur) dengan return berformat JSON. 
+       
        kegunaan JSON pada REST API adalah sebagai format untuk bertukar data client dan server atau antar aplikasi.   (https://www.petanikode.com/json-pemula/) 
- (2.js). function untuk memvalidasi field-field form (username, password) dengan return TRUE atau FALSE
+
+(2.js). function untuk memvalidasi field-field form (username, password) dengan return TRUE atau FALSE
 
 (3.js) fungsi untuk cek format input string dan menghitung panjang kata. Input menerima tipe data berupa string 
 
