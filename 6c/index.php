@@ -200,10 +200,13 @@
                               tampil_data_barang();
 															$('#ModalHapusOk').modal('show');
 															// $('#idHapusOk').html(kode);
-															html += '<h1>Data <span>'+cashier+'</span> berhasil di hapus ID <span style="color:#efb676;">#'+kode+'</span></br>'+
-																			'<span class="glyphicon glyphicon-ok-circle" style="font-size: 170px;color:#88d778;"></span></br>'+
-																			'Berhasil di hapus!'+
-																			'</h1>';
+															html +='<div class="d-flex justify-content-center"><p class="text-center">Data <span>'+cashier+'</span> ID <span style="color:#efb676;">#'+kode+'</span></p></div>'+
+																		'<div class="d-flex justify-content-center"><p class="text-center"><span class="glyphicon glyphicon-ok-circle" style="font-size: 170px;color:#88d778;"></span></p></div>'+
+																		'<div class="d-flex justify-content-center"><p class="text-center">Berhasil di hapus!</p></div>';
+															// html += '<h1>Data <span>'+cashier+'</span> ID <span style="color:#efb676;">#'+kode+'</span></br>'+
+															// 				'<span class="glyphicon glyphicon-ok-circle" style="font-size: 170px;color:#88d778;"></span></br>'+
+															// 				'Berhasil di hapus!'+
+															// 				'</h1>';
 															$('#ModalHapusOk').find(".modal-body").html(html);
                       }
                   });
@@ -499,19 +502,11 @@
 								<div class="modal-content">
 										<div class="modal-header">
 												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="glyphicon glyphicon-remove" style="color:red;"></span></button>
-												<h4 class="modal-title" id="myModalLabel">DELETE</h4>
+												<h4 class="modal-title" id="myModalLabel"> </h4>
 										</div>
 										<form class="form-horizontal">
 										<div class="modal-body">
-
-
-
-
 										</div>
-										<!-- <div class="modal-footer">
-												<button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
-												<button class="btn_hapus btn btn-danger" id="btn_hapus">Hapus</button>
-										</div> -->
 										</form>
 								</div>
 						</div>
