@@ -221,25 +221,20 @@
 		    color: #333;
 		    background-color: #fff;
 		}
-		.page-header {
-		    padding-bottom: 9px;
-		    margin: 40px 0 20px;
-		    border-bottom: 5px solid #ccc;
-				background-color: #fffefe;
-		}
+
 		.table-bordered {
 			border: 2px solid #ddd;
 		}
 		.btn-success {
 				color: #fff;
-				background-color: #efb676;
-				border-color: #efb676;
+				background-color: #FADC9C;
+				border-color: #FADC9C;
 				font-size: 18px
 		}
 		.btn-success:hover {
 		    color: #fff;
-		    background-color: #efb676;
-		    border-color: #efb676;
+		    background-color: #FADC9C;
+		    border-color: #FADC9C;
 				font-size: 18px
 		}
 		.btn-info {
@@ -271,14 +266,38 @@
 		    border-color: transparent;
 				font-size: 18px
 		}
+		.page-header {
+	    padding-bottom: 9px;
+	    margin: 40px 0 20px;
+	    border-bottom: 5px solid #ccc;
+			background-color: #fffefe;
+			background:#FFFEFE;
+			box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+		}
+		.table {
+
+	    width: 100%;
+	    max-width: 100%;
+	    margin-bottom: 20px;
+	    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	    border-radius: 20px;
+
+		}
 		table {
 		    display: table;
 		    border-collapse: separate;
 		    border-spacing: 2px;
-		    border-color: grey;
+		    /* border-color: grey; */
 				border-collapse: collapse;
-				 border-radius: 0.5em;
+				 /* border-radius: 0.5em; */
 				 overflow: hidden;
+
+				 border-radius: 20px 20px 0px 0px;
+		}
+		thead{
+			background: #FADC9C;
+			box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+			border-radius: 20px 20px 0px 0px;
 		}
 		.glyphicon .glyphicon-ok-circle {
     	font-size: 175px;
@@ -290,20 +309,20 @@
 <div class="container">
 	<!-- Page Heading -->
         <div class="row">
-            <h1 class="page-header"><img src="assets/header_arcademy0.png" class="img-fluid" alt="Responsive image">
+            <h1 class="page-header"><img src="assets/header_arcademy0.png" class="img-fluid" alt="Responsive image" style="width: 96px;height: 50px;left: 48px;top: 0px;">
 							<div class="pull-right">
 							<!-- <input class="form-control" type="text" placeholder="Search" aria-label="Search"> -->
 							<form class="pull-left" action="#" method="get" role="form">
 								 <div class="input-group">
-										 <input type="text" name="kata_kunci" class="form-control" placeholder="Search ..." aria-label="Search" aria-describedby="basic-addon2" style="background-color: #a8b7b7cf;color: white;font-size: 18px; border-radius: 0.5em;   margin-right: 95px;margin-left: 10px; margin-top: 3px;float: right;">
+										 <input type="text" name="kata_kunci" class="form-control" placeholder="Search ..." aria-label="Search" aria-describedby="basic-addon2" style="background: #CECECE; color: white;font-size: 18px; border-radius: 0.5em;   margin-right: 95px;margin-left: 10px; margin-top: 11px; float: right;">
 
 								 </div>
 						 </form>
-								<a href="#" class="pull-right btn btn-sm btn-success" data-toggle="modal" data-target="#ModalaAdd"><span class="fa fa-plus"></span> ADD</a>
+								<a href="#" class="pull-right btn btn-sm btn-success" data-toggle="modal" data-target="#ModalaAdd" style="margin: 9px;border-radius: 10px;"><span class="fa fa-plus"></span> ADD</a>
 							</div>
 						</h1>
         </div>
-	<div class="row">
+	<div class="row" style="margin: 0 20px;">
 		<div id="reload">
 		<table class="table ">
 			<thead>
