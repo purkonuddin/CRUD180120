@@ -1,6 +1,6 @@
 function get_data_json(name,age){
   var xmlhttp = new XMLHttpRequest();
-  var url = "http://localhost/test/data.php?nama="+name+"&umur="+age;
+  var url = "https://github.com/purkonuddin/test180120/blob/master/data.php?nama="+name+"&umur="+age;
 
   xmlhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
