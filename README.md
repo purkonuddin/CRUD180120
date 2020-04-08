@@ -17,3 +17,7 @@ jawaban no 2,3,5 dengan format .js di jalankan dengan browser console
 (6a) screenshoot database dan query, bisa dilihat pada link https://github.com/purkonuddin/test180120/issues 
 (6b) bisa diakses pada folder 6b/index.php, dan screenshoot mockup bisa dilihat pada link git repo/issues
 (6c) bisa diakses pada folder 6c/index.php, dan screenshoot aplikasai bisa dilihat pada link git repo/issue
+
+![Screenshot](https://user-images.githubusercontent.com/44079569/72664990-9d4dfb80-3a36-11ea-9ba7-054586f8d9f7.png)
+![Screenshot](https://user-images.githubusercontent.com/44079569/72663056-b8157580-3a20-11ea-9404-fb02654b976f.png)
+![Screenshot](https://user-images.githubusercontent.com/44079569/72665249-05054600-3a39-11ea-85a5-e5508f0a24f0.png)
